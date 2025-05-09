@@ -17,10 +17,14 @@ theme = "congo"
 
 [params]
   description = "Personal website of Daniel Myers"
-  author = "Daniel Myers"
   showReadingTime = true
   hideSummary = false
   enableDarkMode = false
+
+[params.author]
+  name = "Daniel Myers"
+  email = "hello@danielmyers.xyz"
+  bio = "Personal website of Daniel Myers"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
