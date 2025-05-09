@@ -36,7 +36,8 @@ theme = "PaperMod"
   imageAlt = "Headshot of Daniel"
   buttons = [
     { name = "History", url = "/history/" },
-    { name = "Posts", url = "/posts/" }
+    { name = "Posts", url = "/posts/" },
+    { name = "🦋", url = "https://bsky.app/profile/danielmyers.xyz" }
   ]
 
 [params.author]
