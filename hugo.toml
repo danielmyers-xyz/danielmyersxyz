@@ -22,10 +22,11 @@ theme = "PaperMod"
   weight = 3
 
 [[menu.main]]
-  identifier = "bluesky"
-  name = "🦋"
-  url = "https://bsky.app/profile/danielmyers.xyz"
+  identifier = "github"
+  name = "📁"
+  url = "https://github.com/danielmyers-xyz"
   weight = 4
+
 
 [params]
   description = "GIS engineer specializing in workflow automation, mobile field mapping, and open-source solutions"
