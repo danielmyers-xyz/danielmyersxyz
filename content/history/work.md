@@ -1,5 +1,6 @@
 ---
 title: "Work History"
+description: "work history"
 date: 2025-05-08
 draft: false
 ---
