@@ -10,42 +10,43 @@ Daniel J. Myers is a GIS and data professional specializing in workflow automati
 ---
 
 ## 🧭 County of Marin  
-**GIS Engineer**  
-Department of Information Services and Technology, Data Team  
-**November 2022 – Present**
+NOVEMBER 2022 – Present  
+Department of Information Services and Technology, Data Team — GIS Engineer
 
-- Developed and maintain a Jupyter Notebook server integrated with Git and ArcPy, saving the county $8,000 annually by replacing proprietary software with open-source alternatives.  
-- Manage the County’s ArcGIS Open Data Hub Site to facilitate streamlined access to public geospatial datasets.  
-- Automated over 100 updates in ArcGIS Online, migrating from map image services to hosted feature layers using Python Jupyter Notebooks.  
-- Designed and deployed ArcGIS Experience Builder applications for Zoning and General Plan information.  
-- Created Survey123 and Field Maps applications to digitize inspections, replacing paper-based workflows and enabling live dashboards and reports for Public Works.
+- Deployed and maintains a Jupyter Notebook server configured with Python and ArcPy, integrated with Git for version control, and optimized for scheduling Python scripts, saving the county $8,000 annually in licensing costs by leveraging open-source solutions.  
+- Managed the development and ongoing maintenance of the County’s ArcGIS Open Data Hub Site, streamlining access to public geospatial data.  
+- Automated updates in ArcGIS Online using Python Jupyter Notebooks, transitioning over 100 features from map image services to hosted feature services.  
+- Designed and deployed ArcGIS Experience Builder applications to deliver interactive Zoning and General Plan information.  
+- Developed ArcGIS Survey123 and Field Maps applications to digitize inspection workflows, eliminating paper-based processes and saving dozens of hours of manual data entry and cleanup. These solutions enabled the creation of Operations Dashboards and Experience Builder applications to enhance decision-making and reporting capabilities for the Department of Public Works.
 
 ---
 
 ## 🏙️ City of Boston  
+FEBRUARY 2018 – NOVEMBER 2022
+
 ### GIS Architect  
 Department of Innovation and Technology, Analytics Team  
-**2020 – 2022**
 
-- Administered the City’s ArcGIS Enterprise stack, including Notebook Server and Image Server.  
-- Developed automated ArcPy workflows to update and maintain maps, databases, geocoders, and portal content.
+- Responsible for ArcGIS Enterprise deployment including installation, configuration, and administration of the base components and add-ons.
+- Developed automated workflows using ArcPy, ArcGIS Notebooks and other software as necessary to update and maintain databases, maps, geocoders, and portal administration.
 
 ### Senior Analyst  
 Citywide Analytics Team  
-**2019 – 2020**
 
-- Developed the City’s COVID-19 Vaccine Site Map to support public health response efforts.  
-- Created a Food Insecurity Index leveraging census and internal data to inform equitable resource distribution.  
-- Led the development of maps and applications supporting diverse city operations.
+- Lead analyst for the Citywide Analytics Team working closely with data engineers, performance managers, and other analysts to create maps, applications, and other tools to support city operations.  
+- Developed City of Boston’s COVID-19 Vaccine Map in support of the city’s COVID-19 response.  
+- Developed a ‘Food Insecurity Index’ using census variables and internal data for the City of Boston’s Office of Food Justice to aid in resource-allocation decision making.
 
 ### GIS Analyst  
 Office of Emergency Management, Situation Unit  
-**2019**
 
-- Directed the Situation Unit during major event activations, including the Boston Marathon and sports parades.  
-- Delivered real-time incident dashboards and briefings using ArcGIS and WebEOC.  
-- Coordinated monthly remote sensing and 3D data acquisition across the Homeland Security Region.  
-- Managed a FEMA-funded remote sensing project and mentored participants in Google Summer of Code, developing a shelter location analysis tool for unhoused populations.
+- Led the Situation Unit during major emergency operations center activations, including Major League Sports Parades, the Boston Marathon, and Extreme Winter Weather.  
+- Managed and coordinated the collection, analysis, and dissemination of situation information to support decision-making by incident commanders and other stakeholders through WebEOC and ArcGIS tools such as Survey123, Operations Dashboards, and Web Apps.  
+- Served as project manager for Urban Area Security Initiative remote sensing and imagery acquisition project. Coordinated monthly with nine GIS and Data managers across the Homeland Security Region to procure imagery, LiDAR, and 3D data.  
+- Mentored in the 2020 Google Summer of Code as a Mentor, creating a Python tool which analyzes city parcels/properties that could be used for temporary sheltering of unhoused people in support of the Federal Emergency Management Agency’s Regional Catastrophic Preparedness grant.  
+- Developed and maintained ESRI Operational Dashboards for real-time decision making and daily operations. Tracked 911 (CAD), 311, flood sensors, weather radar, and other systems across the city.  
+- Participated in the 2020 Google Summer of Code as a Mentor. Developed a Python Jupyter Notebook which analyzes city parcels/properties that could be used for temporary sheltering of unhoused people and long-term redevelopment for affordable housing in support of the FEMA Regional Catastrophic Preparedness grant.  
+- Organized and facilitated a monthly GIS Working Group comprised of Metro Boston Homeland Security Region GIS professionals to communicate project status, data coordination, and to discuss future GIS applications.
 
 ---
 
@@ -67,7 +68,26 @@ Office of Emergency Management, Situation Unit
 
 ---
 
+## 🏢 University of Massachusetts Amherst  
+**GIS Specialist**  
+Facilities & Grounds Management  
+**May 2017 – January 2018**
+
+- Aided in the development of a geospatial asset management system for the flagship UMass campus and its satellite campuses.  
+- Supervised audit of indoor assets across 11.5 million gross square feet of buildings.  
+- Directed day-to-day tasks of two field technicians.  
+- Mapped stormwater system using Trimble R10 base/rover to aid in the development of a comprehensive storm management plan following state regulations.  
+- Designed databases and published ArcGIS Online hosted feature services of indoor and outdoor assets totaling over 10,000 collected features.  
+- Provided GIS support in the project planning and decision-making phase through dashboards and web mapping applications.  
+- Designed FME ETL workflows for processing asset data.  
+- Audited outdoor campus assets with Trimble R10, ArcGIS Collector, and Survey123, collecting over 7,000 point features.
+
+---
+
 ## 🎓 Education
+
+**San Francisco City College**
+- Databases for Developers with Python & SQL Certificate of Achievement
 
 **University of Massachusetts, Amherst**  
 - MSc, Geographic Information Systems & Technology  
@@ -81,9 +101,10 @@ Office of Emergency Management, Situation Unit
 ## 🧪 Certifications & Licenses
 
 - FAA Part 107 UAS License  
-- Harvard NPLI, January 2020  
-- ESRI: Image Analysis, LiDAR Management, Python for Geoprocessing, Enterprise Administration  
-- In Progress: SF City College — Databases for Developers with Python & SQL  
+- Harvard National Preparedness Leadership Initiative, January 2020  
+- ESRI: Image Analysis, LiDAR Management, Python for Geoprocessing,   Enterprise Administration, Telling Stories with GIS Maps, Basics of JavaScript Web Apps
+- Trimble GPS Equipment Operation & Maintenance  
+- ESRI MOOC: Cartography, Spatial Analysis  
 
 ---
 
@@ -98,4 +119,6 @@ Myers, D.J., et al. (2018) *Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci
 
 - *COVID-19 GIS for Metro Boston Homeland Security Region* — NEArc 2020  
 - *Tree Inventorying at The Waugh Arboretum* — NEArc 2018  
-- *Salt Marsh Land Cover Classification with UAS & Open Source* — FOSS4G 2018 (Tanzania)
+- *Salt Marsh Land Cover Classification with UAS & Open Source* — FOSS4G 2018 (Tanzania)  
+- *UMassAir: Scientific Applications in Unmanned Aerial Systems* — SES Showcase Climate Leadership Summit, Amherst MA  
+ 
