@@ -1,6 +1,6 @@
 baseURL = 'https://www.danielmyers.xyz'
 languageCode = 'en-us'
-title = 'danielmyers-xyz'
+title = 'danielmyers.xyz'
 theme = "PaperMod"
 
 [[menu.main]]
@@ -11,13 +11,13 @@ theme = "PaperMod"
 
 [[menu.main]]
   identifier = "history"
-  name = "History"
+  name = "history"
   url = "/history/"
   weight = 2
 
 [[menu.main]]
   identifier = "posts"
-  name = "Posts"
+  name = "posts"
   url = "/posts/"
   weight = 3
 
@@ -42,9 +42,9 @@ theme = "PaperMod"
   imageTitle = "Daniel"
   imageAlt = "Headshot of Daniel"
   buttons = [
-    { name = "About", url = "/" },
-    { name = "History", url = "/history/" },
-    { name = "Posts", url = "/posts/" }
+    { name = "history", url = "/history/" },
+    { name = "posts", url = "/posts/" },
+    { name = "github", url = "https://github.com/danielmyers-xyz" }
   ]
 
 [params.author]
