@@ -5,13 +5,13 @@ theme = "congo"
 
 [[menu.main]]
   identifier = "home"
-  name = "Home"
+  name = "about"
   url = "/"
   weight = 1
 
 [[menu.main]]
   identifier = "history"
-  name = "History"
+  name = "history"
   url = "/history/"
   weight = 2
 
