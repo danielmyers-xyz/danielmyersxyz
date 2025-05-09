@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Histories on danielmyers-xyz</title>
-    <link>http://localhost:1313/history/</link>
+    <link>http://localhost:56628/history/</link>
     <description>Recent content in Histories on danielmyers-xyz</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <managingEditor>hello@danielmyers.xyz (Daniel Myers)</managingEditor>
     <webMaster>hello@danielmyers.xyz (Daniel Myers)</webMaster>
     <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/history/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56628/history/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Work History</title>
-      <link>http://localhost:1313/history/work/</link>
+      <link>http://localhost:56628/history/work/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><author>hello@danielmyers.xyz (Daniel Myers)</author>
-      <guid>http://localhost:1313/history/work/</guid>
+      <guid>http://localhost:56628/history/work/</guid>
       <description>Past roles, projects, and milestones</description>
     </item>
   </channel>

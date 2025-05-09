@@ -33,6 +33,7 @@ This application is a browser-based GIS tool built using the ArcGIS API for Java
   <img src="/images/lookup-diagram.png" width="700" alt="Zoning App Architecture Diagram">
 </p>
 
+
 <iframe
   src="https://danielmyers-xyz.github.io/lookup-app/"
   width="100%"
@@ -40,5 +41,7 @@ This application is a browser-based GIS tool built using the ArcGIS API for Java
   style="border: 1px solid #ccc; border-radius: 4px;"
   loading="lazy"
 ></iframe>
+
+<p><a href="https://danielmyers-xyz.github.io/lookup-app/" target="_blank" rel="noopener">🔗 Open in a new tab for full responsiveness</a></p>
 
 _Source code available on [GitHub](https://github.com/danielmyers-xyz/lookup-app)._
