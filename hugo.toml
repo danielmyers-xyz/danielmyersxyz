@@ -16,7 +16,6 @@ theme = "PaperMod"
   weight = 2
 
 [params]
-  author = "Daniel Myers"
   description = "Personal website of Daniel Myers"
   defaultTheme = "auto"
   showReadingTime = true
