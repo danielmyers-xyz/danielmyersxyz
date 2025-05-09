@@ -1,5 +1,5 @@
 --- 
-title: "Home" 
-description: "Welcome to my site!"
+title: "about" 
+draft: false
 ---
-Hello! I'm Daniel
+Hello! I'm Daniel.

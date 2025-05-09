@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on danielmyers-xyz</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in about on danielmyers-xyz</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work History</title>
+      <link>http://localhost:1313/history/work/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/history/work/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a draft of my work history page. Eventually this will list my past roles, projects, and career milestones.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
