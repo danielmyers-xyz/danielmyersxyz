@@ -3,6 +3,7 @@ title: "Zoning Lookup Tool"
 description: "Explore an interactive app for accessing zoning data in Marin County"
 date: 2025-05-09
 draft: false
+layout: "fullwidth"
 ---
 
 🛠️ **Zoning Lookup Tool — Technical Breakdown**
