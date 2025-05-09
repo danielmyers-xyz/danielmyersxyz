@@ -28,7 +28,7 @@ theme = "PaperMod"
   weight = 4
 
 [params]
-  description = "Personal website of Daniel Myers"
+  description = "GIS engineer specializing in workflow automation, mobile field mapping, and open-source solutions"
   defaultTheme = "auto"
   showReadingTime = true
   hideSummary = false
@@ -36,11 +36,12 @@ theme = "PaperMod"
 [params.profileMode]
   enabled = true
   title = "Daniel Myers"
-  subtitle = "GIS Engineer, speaker, and public tech tinkerer"
+  subtitle = "GIS engineer focused on automation, mobile workflows, and public-sector innovation"
   imageUrl = "/images/profile.jpg"
   imageTitle = "Daniel"
   imageAlt = "Headshot of Daniel"
   buttons = [
+    { name = "About", url = "/" },
     { name = "History", url = "/history/" },
     { name = "Posts", url = "/posts/" }
   ]
@@ -48,7 +49,7 @@ theme = "PaperMod"
 [params.author]
   name = "Daniel Myers"
   email = "hello@danielmyers.xyz"
-  bio = "Personal website of Daniel Myers"
+  bio = "Personal website for Daniel Myers"
 
 [params.analytics]
   disable = true
