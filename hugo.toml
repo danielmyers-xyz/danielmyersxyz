@@ -1,7 +1,7 @@
 baseURL = 'https://www.danielmyers.xyz'
 languageCode = 'en-us'
 title = 'danielmyers-xyz'
-theme = "congo"
+theme = "poison"
 
 [[menu.main]]
   identifier = "home"
