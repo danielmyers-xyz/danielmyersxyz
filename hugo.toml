@@ -1,25 +1,38 @@
 baseURL = 'https://www.danielmyers.xyz'
 languageCode = 'en-us'
 title = 'danielmyers-xyz'
-theme = "poison"
+theme = "PaperMod"
 
 [[menu.main]]
-  identifier = "home"
-  name = "about"
-  url = "/"
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
   weight = 1
 
 [[menu.main]]
-  identifier = "history"
-  name = "history"
-  url = "/history/"
+  identifier = "about"
+  name = "About"
+  url = "/about/"
   weight = 2
 
 [params]
+  author = "Daniel Myers"
   description = "Personal website of Daniel Myers"
+  defaultTheme = "auto"
   showReadingTime = true
   hideSummary = false
-  enableDarkMode = false
+
+[params.profileMode]
+  enabled = true
+  title = "Daniel Myers"
+  subtitle = "GIS Engineer, speaker, and public tech tinkerer"
+  imageUrl = "/images/profile.jpg"
+  imageTitle = "Daniel"
+  imageAlt = "Headshot of Daniel"
+  buttons = [
+    { name = "About", url = "/" },
+    { name = "Posts", url = "/posts/" }
+  ]
 
 [params.author]
   name = "Daniel Myers"
