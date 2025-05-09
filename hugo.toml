@@ -15,6 +15,12 @@ theme = "PaperMod"
   url = "/history/"
   weight = 2
 
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 3
+
 [params]
   description = "Personal website of Daniel Myers"
   defaultTheme = "auto"
@@ -29,7 +35,8 @@ theme = "PaperMod"
   imageTitle = "Daniel"
   imageAlt = "Headshot of Daniel"
   buttons = [
-    { name = "History", url = "/history/" }
+    { name = "History", url = "/history/" },
+    { name = "Posts", url = "/posts/" }
   ]
 
 [params.author]
