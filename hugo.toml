@@ -21,6 +21,12 @@ theme = "PaperMod"
   url = "/posts/"
   weight = 3
 
+[[menu.main]]
+  identifier = "bluesky"
+  name = "🦋"
+  url = "https://bsky.app/profile/danielmyers.xyz"
+  weight = 4
+
 [params]
   description = "Personal website of Daniel Myers"
   defaultTheme = "auto"
@@ -36,8 +42,7 @@ theme = "PaperMod"
   imageAlt = "Headshot of Daniel"
   buttons = [
     { name = "History", url = "/history/" },
-    { name = "Posts", url = "/posts/" },
-    { name = "🦋", url = "https://bsky.app/profile/danielmyers.xyz" }
+    { name = "Posts", url = "/posts/" }
   ]
 
 [params.author]
