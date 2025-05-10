@@ -63,8 +63,8 @@ Office of Emergency Management, Situation Unit
 ## 🏆 Awards
 
 - **UMass Amherst Geosciences Distinguished Alumni**, 2024  
-- **ESRI UC Plenary Presenter**, 2020 — Metro Boston COVID-19 Dashboards  
-- **ESRI Fed UC Plenary Presenter**, 2019 — Daily Traffic Operations Dashboard  
+- **ESRI UC Plenary**, 2020 — Metro Boston COVID-19 Dashboards  
+- **ESRI Fed UC Plenary**, 2019 — Daily Traffic Operations Dashboard  
 
 ---
 
