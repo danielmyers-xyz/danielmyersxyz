@@ -45,8 +45,6 @@ Office of Emergency Management, Situation Unit
 - Served as project manager for Urban Area Security Initiative remote sensing and imagery acquisition project. Coordinated monthly with nine GIS and Data managers across the Homeland Security Region to procure imagery, LiDAR, and 3D data.  
 - Mentored in the 2020 Google Summer of Code as a Mentor, creating a Python tool which analyzes city parcels/properties that could be used for temporary sheltering of unhoused people in support of the Federal Emergency Management Agency’s Regional Catastrophic Preparedness grant.  
 - Developed and maintained ESRI Operational Dashboards for real-time decision making and daily operations. Tracked 911 (CAD), 311, flood sensors, weather radar, and other systems across the city.  
-- Participated in the 2020 Google Summer of Code as a Mentor. Developed a Python Jupyter Notebook which analyzes city parcels/properties that could be used for temporary sheltering of unhoused people and long-term redevelopment for affordable housing in support of the FEMA Regional Catastrophic Preparedness grant.  
-- Organized and facilitated a monthly GIS Working Group comprised of Metro Boston Homeland Security Region GIS professionals to communicate project status, data coordination, and to discuss future GIS applications.
 
 ---
 
@@ -79,7 +77,6 @@ Facilities & Grounds Management
 - Mapped stormwater system using Trimble R10 base/rover to aid in the development of a comprehensive storm management plan following state regulations.  
 - Designed databases and published ArcGIS Online hosted feature services of indoor and outdoor assets totaling over 10,000 collected features.  
 - Provided GIS support in the project planning and decision-making phase through dashboards and web mapping applications.  
-- Designed FME ETL workflows for processing asset data.  
 - Audited outdoor campus assets with Trimble R10, ArcGIS Collector, and Survey123, collecting over 7,000 point features.
 
 ---
