@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on danielmyers.xyz</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on danielmyers.xyz</description>
+    <title>Folium on danielmyers.xyz</title>
+    <link>http://localhost:1313/tags/folium/</link>
+    <description>Recent content in Folium on danielmyers.xyz</description>
     <generator>Hugo -- 0.147.2</generator>
     <language>en-us</language>
     <managingEditor>hello@danielmyers.xyz (Daniel Myers)</managingEditor>
     <webMaster>hello@danielmyers.xyz (Daniel Myers)</webMaster>
     <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/folium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT Zoning Chatbot</title>
       <link>http://localhost:1313/posts/chatbot/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate><author>hello@danielmyers.xyz (Daniel Myers)</author>
       <guid>http://localhost:1313/posts/chatbot/</guid>
       <description>A demo using GeoPandas, Folium, and the OpenAI API to summarize zoning for a given address in Marin County.</description>
-    </item>
-    <item>
-      <title>Zoning Lookup Tool</title>
-      <link>http://localhost:1313/posts/post-1/</link>
-      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><author>hello@danielmyers.xyz (Daniel Myers)</author>
-      <guid>http://localhost:1313/posts/post-1/</guid>
-      <description>Explore an interactive app for accessing zoning data in Marin County</description>
     </item>
   </channel>
 </rss>

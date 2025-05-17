@@ -31,7 +31,7 @@ Department of Innovation and Technology, Analytics Team
 - Developed automated workflows using ArcPy, ArcGIS Notebooks and other software as necessary to update and maintain databases, maps, geocoders, and portal administration.
 
 ### Senior Analyst  
-Citywide Analytics Team  
+Department of Innovation and Technology, Analytics Team  
 
 - Lead analyst for the Citywide Analytics Team working closely with data engineers, performance managers, and other analysts to create maps, applications, and other tools to support city operations.  
 - Developed City of Boston’s COVID-19 Vaccine Map in support of the city’s COVID-19 response.  

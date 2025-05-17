@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Posts | danielmyers.xyz</title>
-<meta name="keywords" content="">
-<meta name="description" content="Posts - danielmyers.xyz">
+<title>ChatGPT Zoning Chatbot | danielmyers.xyz</title>
+<meta name="keywords" content="zoning, chatbot, folium, geopandas, openai">
+<meta name="description" content="A demo using GeoPandas, Folium, and the OpenAI API to summarize zoning for a given address in Marin County.">
 <meta name="author" content="map[bio:Personal website for Daniel Myers email:hello@danielmyers.xyz name:Daniel Myers]">
-<link rel="canonical" href="http://localhost:1313/posts/">
+<link rel="canonical" href="http://localhost:1313/posts/chatbot/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/chatbot/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +58,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -111,7 +110,7 @@
             </li>
             <li>
                 <a href="http://localhost:1313/posts/" title="posts">
-                    <span class="active">posts</span>
+                    <span>posts</span>
                 </a>
             </li>
             <li>
@@ -128,39 +127,57 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Posts
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">ChatGPT Zoning Chatbot
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Building a Zoning Chatbot with GeoPandas, Folium, and the OpenAI API I wanted to create a proof-of-concept chatbot that could answer basic zoning questions using spatial data. The idea was simple: enter an address, and get back a zoning summary with a map. I used a combination of Python tools I already lean on—GeoPandas, Folium, and the OpenAI API—and wired them up into a notebook that does just that.
-🧠 The chatbot takes in an address, geocodes it with Nominatim, runs a spatial join with a zoning shapefile (in this case, for Marin County), and then sends the resulting zoning description to the OpenAI API for summarization. It returns both the original zoning text and a cleaned-up explanation in plain English. I also generate an interactive map with Folium showing the parcel boundary and surrounding zoning.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-05-16 00:00:00 +0000 UTC'>May 16, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;map[bio:Personal website for Daniel Myers email:hello@danielmyers.xyz name:Daniel Myers]</footer>
-  <a class="entry-link" aria-label="post link to ChatGPT Zoning Chatbot" href="http://localhost:1313/posts/chatbot/"></a>
-</article>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      ChatGPT Zoning Chatbot
+    </h1>
+    <div class="post-description">
+      A demo using GeoPandas, Folium, and the OpenAI API to summarize zoning for a given address in Marin County.
+    </div>
+    <div class="post-meta"><span title='2025-05-16 00:00:00 +0000 UTC'>May 16, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;map[bio:Personal website for Daniel Myers email:hello@danielmyers.xyz name:Daniel Myers]
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Zoning Lookup Tool
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>🛠️ Zoning Lookup Tool — Technical Breakdown
-This application is a browser-based GIS tool built using the ArcGIS API for JavaScript (v4.27), designed to help users search and interactively query zoning information for Marin County, CA.
-🔧 Features and Architecture Framework: The app is written in plain JavaScript and styled with custom CSS and the ArcGIS dark theme. Map Initialization: Uses a MapView with a default zoom centered on Marin County. A custom extent is defined for a consistent viewport. Search Integration: The Esri Search widget enables address and Parcel ID lookups, which trigger FeatureLayer intersections. Layer Queries: Parcel, zoning, and general plan layers are all hosted in ArcGIS Online and queried dynamically using spatial intersects relationships. Intersection Logic: A unified query checks all layers and extracts the smallest relevant feature to reduce ambiguity. UI Rendering: Results are displayed in a sidebar panel. The view automatically zooms to the selected parcel or clicked feature. Performance Optimization: Layers are hidden by default and only displayed at appropriate zoom levels based on view.scale watchers. 📦 Tech Stack ArcGIS API for JavaScript (CDN) Static HTML/CSS/JS, deployed on GitHub Pages Hosted ArcGIS Online feature layers Fully client-side, no server-side code 🖼️ Architecture Diagram ...</p>
+</div>
+  </header> 
+  <div class="post-content"><h2 id="building-a-zoning-chatbot-with-geopandas-folium-and-the-openai-api">Building a Zoning Chatbot with GeoPandas, Folium, and the OpenAI API<a hidden class="anchor" aria-hidden="true" href="#building-a-zoning-chatbot-with-geopandas-folium-and-the-openai-api">#</a></h2>
+<p>I wanted to create a proof-of-concept chatbot that could answer basic zoning questions using spatial data. The idea was simple: enter an address, and get back a zoning summary with a map. I used a combination of Python tools I already lean on—GeoPandas, Folium, and the OpenAI API—and wired them up into a notebook that does just that.</p>
+<p>🧠 The chatbot takes in an address, geocodes it with Nominatim, runs a spatial join with a zoning shapefile (in this case, for Marin County), and then sends the resulting zoning description to the OpenAI API for summarization. It returns both the original zoning text and a cleaned-up explanation in plain English. I also generate an interactive map with Folium showing the parcel boundary and surrounding zoning.</p>
+<p>One of my main goals here was <strong>accessibility</strong>—I wanted a zoning lookup tool that produces output that&rsquo;s easy to read aloud by a screen reader or text-to-speech tool. A lot of existing GIS interfaces aren&rsquo;t optimized for accessibility or non-technical users. This approach keeps the logic spatial but outputs something lightweight, plain-text, and structured for assistive tech.</p>
+<h2 id="-tech-stack">🔧 Tech Stack<a hidden class="anchor" aria-hidden="true" href="#-tech-stack">#</a></h2>
+<ul>
+<li><code>GeoPandas</code> for spatial joins</li>
+<li><code>Folium</code> for web map generation</li>
+<li><code>geopy</code> + Nominatim for geocoding</li>
+<li><code>openai</code> Python library for GPT-based summarization</li>
+<li>A zoning geojson of Unincorporated Marin County from Open Data</li>
+</ul>
+<h2 id="-files--structure">📂 Files &amp; Structure<a hidden class="anchor" aria-hidden="true" href="#-files--structure">#</a></h2>
+<p>This notebook defines four core functions:</p>
+<ul>
+<li><code>lookup_zoning(address)</code>: Geocodes the input address, converts it to a GeoDataFrame, reprojects to match the zoning data, and performs a spatial join to find the intersecting zoning polygon.</li>
+<li><code>summarize_zoning(zone_gdf)</code>: Extracts zoning attributes from the joined polygon, builds a prompt, and sends it to the OpenAI API for summarization.</li>
+<li><code>show_result_map(point_geom, result_gdf)</code>: Uses Folium to visualize the point and intersecting zoning polygon.</li>
+<li><code>zoning_chatbot(address)</code>: High-level wrapper function that ties everything together, prints the zoning attributes, gets the summary, and shows the map.</li>
+</ul>
+<h2 id="-try-it-yourself">🗺️ Try it yourself<a hidden class="anchor" aria-hidden="true" href="#-try-it-yourself">#</a></h2>
+<p>You can view the notebook on GitHub or interact with the embedded version below:</p>
+<p><a href="https://github.com/danielmyers-xyz/zoning-chatbot">🔗 View the repository on GitHub</a></p>
+<iframe src="/notebooks/chatbot.html" width="100%" height="800px" style="border:none;"></iframe>
+
   </div>
-  <footer class="entry-footer"><span title='2025-05-09 00:00:00 +0000 UTC'>May 9, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;map[bio:Personal website for Daniel Myers email:hello@danielmyers.xyz name:Daniel Myers]</footer>
-  <a class="entry-link" aria-label="post link to Zoning Lookup Tool" href="http://localhost:1313/posts/post-1/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/zoning/">Zoning</a></li>
+      <li><a href="http://localhost:1313/tags/chatbot/">Chatbot</a></li>
+      <li><a href="http://localhost:1313/tags/folium/">Folium</a></li>
+      <li><a href="http://localhost:1313/tags/geopandas/">Geopandas</a></li>
+      <li><a href="http://localhost:1313/tags/openai/">Openai</a></li>
+    </ul>
+  </footer>
 </article>
     </main>
     

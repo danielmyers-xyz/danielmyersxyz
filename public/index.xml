@@ -8,8 +8,15 @@
     <language>en-us</language>
     <managingEditor>hello@danielmyers.xyz (Daniel Myers)</managingEditor>
     <webMaster>hello@danielmyers.xyz (Daniel Myers)</webMaster>
-    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Zoning Chatbot</title>
+      <link>http://localhost:1313/posts/chatbot/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate><author>hello@danielmyers.xyz (Daniel Myers)</author>
+      <guid>http://localhost:1313/posts/chatbot/</guid>
+      <description>A demo using GeoPandas, Folium, and the OpenAI API to summarize zoning for a given address in Marin County.</description>
+    </item>
     <item>
       <title>Zoning Lookup Tool</title>
       <link>http://localhost:1313/posts/post-1/</link>
