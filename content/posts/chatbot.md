@@ -11,7 +11,7 @@ tags: ["zoning", "chatbot", "folium", "geopandas", "openai"]
 
 I wanted to create a proof-of-concept chatbot that could answer basic zoning questions using spatial data. The idea was simple: enter an address, and get back a zoning summary with a map. I used a combination of Python tools I already lean on—GeoPandas, Folium, and the OpenAI API—and wired them up into a notebook that does just that.
 
-🧠 The chatbot takes in an address, geocodes it with Nominatim, runs a spatial join with a zoning shapefile (in this case, for Marin County), and then sends the resulting zoning description to the OpenAI API for summarization. It returns both the original zoning text and a cleaned-up explanation in plain English. I also generate an interactive map with Folium showing the parcel boundary and surrounding zoning.
+🧠 The chatbot takes in an address, geocodes it with Nominatim, runs a spatial join with a zoning geojson (in this case, for Marin County), and then sends the resulting zoning description to the OpenAI API for summarization. It returns both the original zoning text and a cleaned-up explanation in plain English. I also generate an interactive map with Folium showing the parcel boundary and surrounding zoning.
 
 One of my main goals here was **accessibility**—I wanted a zoning lookup tool that produces output that's easy to read aloud by a screen reader or text-to-speech tool. A lot of existing GIS interfaces aren't optimized for accessibility or non-technical users. This approach keeps the logic spatial but outputs something lightweight, plain-text, and structured for assistive tech.
 

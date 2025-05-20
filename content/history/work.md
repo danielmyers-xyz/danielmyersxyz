@@ -105,6 +105,8 @@ UMass Air
   - UMass Air sUAS Research Fellow  
 - B.A., Political Science  
   - President, Pi Sigma Alpha (Delta Lambda Chapter)  
+- Certificate in Public Policy & Administration
+
 
 ---
 
