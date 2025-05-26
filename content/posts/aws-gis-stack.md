@@ -4,7 +4,6 @@ date: 2025-05-25
 draft: false
 description: "How I built a self-hosted open-source GIS stack using Docker, GeoServer, PostGIS, and AWS Lightsail"
 tags: ["GIS", "PostGIS", "GeoServer", "AWS", "Open Source"]
-cover: "/images/architecture-diagram.webp"
 ---
 
 ## Building a Personal GeoServer & PostGIS Stack
