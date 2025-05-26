@@ -58,7 +58,7 @@ Facilities & Grounds Management
 - Contributed to the development of a geospatial asset management system for the main UMass campus and satellite locations.  
 - Designed spatial databases and published ArcGIS Online hosted feature services for indoor and outdoor campus assets.  
 - Collected thousands of outdoor asset locations using Trimble R10, ArcGIS Collector, and Survey123.  
-- Operated DJI Phantom 4 Pro drone to collect aerial imagery for use in salt marsh research and classification. Generated orthomosaics using OpenDroneMap and georeferenced outputs for GIS integration and analysis.
+- Operated DJI Phantom 4 Pro drone to collect aerial imagery for use in construction monitoring and planning. Generated orthomosaics using OpenDroneMap and georeferenced outputs for GIS integration and analysis.
 
 ---
 
