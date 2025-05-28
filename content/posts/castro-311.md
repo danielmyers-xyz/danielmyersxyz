@@ -51,7 +51,6 @@ Data is rendered with React Leaflet and updated every time the page loads.
 Try it live: [castro-311-dashboard](https://danielmyers-xyz.github.io/castro-311-dashboard)
 
 ![Dashboard on desktop](/images/castro-311/desktop-map.png)  
-![Dashboard on mobile](/images/castro-311/mobile-map.jpeg)
 
 ## 🖱️ Interactivity
 
