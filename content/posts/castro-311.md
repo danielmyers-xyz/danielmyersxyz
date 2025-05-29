@@ -6,11 +6,16 @@ tags: ["gis", "etl", "dashboard", "geoserver", "jupyterlab", "react", "san franc
 draft: false
 ---
 
-![Castro 311 Dashboard Overview](/images/castro-311/overview.png)
+ I live in San Francisco’s Castro neighborhood and wanted a better way to keep an eye on what’s going on — potholes, graffiti, tree issues, and other service requests.
+Instead of waiting for monthly digests or digging through city dashboards, I built my own live map.
 
-I live in San Francisco’s Castro neighborhood and wanted a better way to keep an eye on what’s going on — potholes, graffiti, tree issues, and other service requests. Instead of waiting for monthly digests or digging through city dashboards, I built my own live map.
+This was a chance to flex my GIS skills and stitch together an open-source stack I fully control —
+from ETL and spatial filtering to GeoServer and a React Leaflet frontend. Now I can check what’s happening in the neighborhood any time, from any device.
 
-This was a chance to flex my GIS skills and stitch together an open-source stack I fully control — from ETL and spatial filtering to GeoServer and a React Leaflet frontend. Now I can check what’s happening in the neighborhood any time, from any device.
+
+  <div style="flex: 1 1 600px; min-width: 600px; max-width: 100%; margin: 0 auto; overflow: hidden;">
+    <iframe src="https://danielmyers-xyz.github.io/castro-311-dashboard/" width=100%" height="600" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+  </div>
 
 ## 🛠️ Project Overview
 

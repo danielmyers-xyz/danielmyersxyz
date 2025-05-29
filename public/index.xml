@@ -8,8 +8,22 @@
     <language>en-us</language>
     <managingEditor>hello@danielmyers.xyz (Daniel Myers)</managingEditor>
     <webMaster>hello@danielmyers.xyz (Daniel Myers)</webMaster>
-    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Daily-Updating 311 Dashboard for SF&#39;s Castro</title>
+      <link>http://localhost:1313/posts/castro-311/</link>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate><author>hello@danielmyers.xyz (Daniel Myers)</author>
+      <guid>http://localhost:1313/posts/castro-311/</guid>
+      <description>How I used open source tools to build a spatial ETL pipeline and live dashboard for service requests in my neighborhood.</description>
+    </item>
+    <item>
+      <title>Building a Personal GeoServer &amp; PostGIS Stack</title>
+      <link>http://localhost:1313/posts/aws-gis-stack/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate><author>hello@danielmyers.xyz (Daniel Myers)</author>
+      <guid>http://localhost:1313/posts/aws-gis-stack/</guid>
+      <description>How I built a self-hosted open-source GIS stack using Docker, GeoServer, PostGIS, and AWS Lightsail</description>
+    </item>
     <item>
       <title>ChatGPT Zoning Chatbot</title>
       <link>http://localhost:1313/posts/chatbot/</link>
