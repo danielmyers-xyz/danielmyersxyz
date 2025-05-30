@@ -12,18 +12,6 @@ Instead of waiting for monthly digests or digging through city dashboards, I bui
 This was a chance to flex my GIS skills and stitch together an open-source stack I fully control —
 from ETL and spatial filtering to GeoServer and a React Leaflet frontend. Now I can check what’s happening in the neighborhood any time, from any device.
 
-
-<div style="width: 100%; max-width: 100%; overflow: hidden;">
-  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0;">
-    <iframe 
-      src="https://danielmyers-xyz.github.io/castro-311-dashboard/" 
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:1px solid #ccc; border-radius: 8px;" 
-      allowfullscreen 
-      loading="lazy">
-    </iframe>
-  </div>
-</div>
-
 ## 🛠️ Project Overview
 
 The setup is split across two GitHub repos:
@@ -60,9 +48,19 @@ fetch(url)
 ```
 
 Data is rendered with React Leaflet and updated every time the page loads.  
-Try it live: [castro-311-dashboard](https://danielmyers-xyz.github.io/castro-311-dashboard)
 
-![Dashboard on desktop](/images/castro-311/desktop-map.png)  
+### [🚀 Try it in full-screen](https://danielmyers-xyz.github.io/castro-311-dashboard)
+
+<div style="width: 100%; max-width: 100%; overflow: hidden;">
+  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0;">
+    <iframe 
+      src="https://danielmyers-xyz.github.io/castro-311-dashboard/" 
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:1px solid #ccc; border-radius: 8px;" 
+      allowfullscreen 
+      loading="lazy">
+    </iframe>
+  </div>
+</div>
 
 ## 🖱️ Interactivity
 
