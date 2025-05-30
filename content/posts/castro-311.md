@@ -13,9 +13,16 @@ This was a chance to flex my GIS skills and stitch together an open-source stack
 from ETL and spatial filtering to GeoServer and a React Leaflet frontend. Now I can check what’s happening in the neighborhood any time, from any device.
 
 
-  <div style="flex: 1 1 600px; min-width: 600px; max-width: 100%; margin: 0 auto; overflow: hidden;">
-    <iframe src="https://danielmyers-xyz.github.io/castro-311-dashboard/" width=100%" height="600" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+<div style="width: 100%; max-width: 100%; overflow: hidden;">
+  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0;">
+    <iframe 
+      src="https://danielmyers-xyz.github.io/castro-311-dashboard/" 
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:1px solid #ccc; border-radius: 8px;" 
+      allowfullscreen 
+      loading="lazy">
+    </iframe>
   </div>
+</div>
 
 ## 🛠️ Project Overview
 
