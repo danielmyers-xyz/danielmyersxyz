@@ -13,7 +13,7 @@ Daniel J. Myers is a GIS and data professional specializing in workflow automati
 NOVEMBER 2022 – PRESENT  
 Department of Information Services and Technology, Data Team
 
-### GIS Engineer
+### Advanced Systems Engineer
 
 - Deployed and maintain a Jupyter Notebook server configured with Python and ArcPy, integrated with Git for version control, and optimized for scheduled script execution—saving the county $8,000 annually by leveraging open-source tools.  
 - Manage the development and maintenance of the County’s ArcGIS Open Data Hub, streamlining access to public geospatial datasets.  
@@ -51,8 +51,8 @@ Office of Emergency Management, Situation Unit
 - Mentored in the 2020 Google Summer of Code, guiding the development of a Python tool to analyze city parcels for potential temporary shelter sites in support of FEMA’s Regional Catastrophic Preparedness grant.  
 
 ## 🧭 University of Massachusetts Amherst  
+### GIS Specialist
 APRIL 2018 – JANUARY 2019  
-### GIS Specialist  
 Facilities & Grounds Management  
 
 - Contributed to the development of a geospatial asset management system for the main UMass campus and satellite locations.  
@@ -60,12 +60,9 @@ Facilities & Grounds Management
 - Collected thousands of outdoor asset locations using Trimble R10, ArcGIS Collector, and Survey123.  
 - Operated DJI Phantom 4 Pro drone to collect aerial imagery for use in construction monitoring and planning. Generated orthomosaics using OpenDroneMap and georeferenced outputs for GIS integration and analysis.
 
----
-
-## 🌎 University of Massachusetts Transportation Center  
-JULY 2018 – FEBRUARY 2019  
 ### UAS Pilot  
-UMass Air
+University of Massachusetts Transportation Center - UMass Air
+JULY 2018 – FEBRUARY 2019  
 
 - Operated DJI Matrice 600 equipped with near-infrared, thermal, and RGB cameras as the Remote Pilot in Command for EPA-funded research.  
 - Assembled and purchased custom computer and aerial vehicle hardware.  
