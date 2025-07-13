@@ -34,15 +34,15 @@ draft: false
 | Illegal Postings                          |     1 |
 
 - **Average resolution time**: 1.4 hrs
-- **Open-case aging**:           0–1 d=17, 1–3 d=19, 3+ d=0
+- **Open-case aging**:           0–1 d=12, 1–3 d=24, 3+ d=0
 
 ## AI Report
 
-Summary: 36 open vs. 25 closed cases.
+**Summary:** 36 open vs. 25 closed cases.
 
-Top 3 Request Types: 
-- Street and Sidewalk Cleaning (17)
-- Parking Enforcement (8)
-- General Request (7)
+**Top 3 Request Types:**
+Street and Sidewalk Cleaning  17 (49% total)
+Parking Enforcement            8 (26% total)
+General Request                  7 (21% total)
 
-Closing: The resolution speed is 1.4 hrs, with an open-case aging distribution of 0–1 d=17, 1–3 d=19, and 3+ d=0
+**Closing:** The resolution speed is approximately 1.4 hours, with open-case aging ranging from 0 to 3 days.
