@@ -33,11 +33,10 @@ draft: false
 
 ## AI Report
 
-Summary: **42 open vs. 14 closed cases.**
-
+Summary: **42 open vs. 14 closed cases.**  
 Top 3 Request Types:
-- Parking Enforcement (10)
-- Street and Sidewalk Cleaning (23)
-- Encampment (7)
+* Street and Sidewalk Cleaning (23)
+* Encampment (7)
+* Parking Enforcement (10)  
 
-Closing: One sentence commenting on the resolution speed (1.1 hrs) and the open-case aging distribution (0–1 d=10, 1–3 d=32, 3+ d=0).
+Closing: Resolution speed is 1.1 hrs, with open-case aging spread across 0–1 d=10, 1–3 d=32, and 3+ d=0.
