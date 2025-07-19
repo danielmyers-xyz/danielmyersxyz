@@ -1,6 +1,6 @@
 ---
 title: "Daily AI-Enhanced 311 Report for San Francisco’s Castro"
-date: 2025-07-18
+date: 2025-07-19
 description: "Automated daily summary of 311 service requests in the Castro neighborhood using Python, SQL, PostGIS and the smollm2:1.7b model via a local chat API."
 tags: ["castro", "311", "san francisco", "postgis", "sql", "jupyter", "ai", "smollm2", "chat-api"]
 draft: false
