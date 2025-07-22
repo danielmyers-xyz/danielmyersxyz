@@ -6,37 +6,42 @@ tags: ["castro", "311", "san francisco", "postgis", "sql", "jupyter", "ai", "smo
 draft: false
 ---
 
-# SF Castro 311 Dashboard Summary — 2025-07-18
+# SF Castro 311 Dashboard Summary — 2025-07-20
 
 ## Raw Metrics
 
-- **Total cases**: 56
-- **Open**:       42
-- **Closed**:     14
+- **Total cases**: 91
+- **Open**:       50
+- **Closed**:     41
 
 ### Request Type Breakdown
 
-| request_type                 |   cnt |
-|:-----------------------------|------:|
-| Street and Sidewalk Cleaning |    23 |
-| Parking Enforcement          |    10 |
-| Encampment                   |     7 |
-| General Request              |     5 |
-| Tree Maintenance             |     4 |
-| RPD General                  |     3 |
-| Illegal Postings             |     2 |
-| Graffiti Public              |     1 |
-| Street Defect                |     1 |
+| request_type                              |   cnt |
+|:------------------------------------------|------:|
+| Street and Sidewalk Cleaning              |    36 |
+| Graffiti Public                           |    17 |
+| Parking Enforcement                       |     9 |
+| Encampment                                |     8 |
+| MTA Parking Traffic Signs Normal Priority |     6 |
+| Graffiti Private                          |     5 |
+| Illegal Postings                          |     3 |
+| Sidewalk and Curb                         |     2 |
+| Tree Maintenance                          |     1 |
+| General Request                           |     1 |
+| Litter Receptacle Maintenance             |     1 |
+| Sewer                                     |     1 |
+| Blocked Street and Sidewalk               |     1 |
 
-- **Average resolution time**: 1.1 hrs
-- **Open-case aging**:           0–1 d=10, 1–3 d=32, 3+ d=0
+- **Average resolution time**: 1.9 hrs
+- **Open-case aging**:           0–1 d=0, 1–3 d=50, 3+ d=0
 
 ## AI Report
 
-Summary: **42 open vs. 14 closed cases.**  
-Top 3 Request Types:
-* Street and Sidewalk Cleaning (23)
-* Encampment (7)
-* Parking Enforcement (10)  
+Summary: 41 closed vs. 50 open cases
 
-Closing: Resolution speed is 1.1 hrs, with open-case aging spread across 0–1 d=10, 1–3 d=32, and 3+ d=0.
+Top 3 Request Types: 
+* Graffiti Public (17)
+* Street and Sidewalk Cleaning (36)
+* Illegal Postings (5)
+
+Closing: The resolution speed is 1.9 hrs, with an open-case aging distribution of 0–1 d=0, 1–3 d=50, and 3+ days
