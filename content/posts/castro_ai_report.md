@@ -6,42 +6,44 @@ tags: ["castro", "311", "san francisco", "postgis", "sql", "jupyter", "ai", "smo
 draft: false
 ---
 
-# SF Castro 311 Dashboard Summary — 2025-07-20
+# SF Castro 311 Dashboard Summary — 2025-07-21
 
 ## Raw Metrics
 
-- **Total cases**: 91
-- **Open**:       50
-- **Closed**:     41
+- **Total cases**: 102
+- **Open**:       67
+- **Closed**:     35
 
 ### Request Type Breakdown
 
 | request_type                              |   cnt |
 |:------------------------------------------|------:|
-| Street and Sidewalk Cleaning              |    36 |
-| Graffiti Public                           |    17 |
-| Parking Enforcement                       |     9 |
-| Encampment                                |     8 |
-| MTA Parking Traffic Signs Normal Priority |     6 |
-| Graffiti Private                          |     5 |
-| Illegal Postings                          |     3 |
-| Sidewalk and Curb                         |     2 |
-| Tree Maintenance                          |     1 |
-| General Request                           |     1 |
-| Litter Receptacle Maintenance             |     1 |
-| Sewer                                     |     1 |
+| Street and Sidewalk Cleaning              |    29 |
+| Graffiti Public                           |    20 |
+| Parking Enforcement                       |    15 |
+| Encampment                                |     7 |
+| Sidewalk and Curb                         |     5 |
+| General Request                           |     4 |
+| RPD General                               |     4 |
+| Graffiti Private                          |     3 |
+| Street Defect                             |     3 |
+| MTA Parking Traffic Signs Normal Priority |     2 |
+| Litter Receptacle Maintenance             |     2 |
+| Illegal Postings                          |     2 |
+| Tree Maintenance                          |     2 |
+| MTA Parking Traffic Signs High Priority   |     1 |
+| Damage Property                           |     1 |
 | Blocked Street and Sidewalk               |     1 |
+| Streetlights                              |     1 |
 
-- **Average resolution time**: 1.9 hrs
-- **Open-case aging**:           0–1 d=0, 1–3 d=50, 3+ d=0
+- **Average resolution time**: 1.3 hrs
+- **Open-case aging**:           0–1 d=5, 1–3 d=62, 3+ d=0
 
 ## AI Report
 
-Summary: 41 closed vs. 50 open cases
+Summary: 67 open vs. 35 closed cases.
 
-Top 3 Request Types: 
-* Graffiti Public (17)
-* Street and Sidewalk Cleaning (36)
-* Illegal Postings (5)
-
-Closing: The resolution speed is 1.9 hrs, with an open-case aging distribution of 0–1 d=0, 1–3 d=50, and 3+ days
+Top 3 Request Types:
+1. Graffiti Public
+2. Street and Sidewalk Cleaning
+3. Parking Enforcement
