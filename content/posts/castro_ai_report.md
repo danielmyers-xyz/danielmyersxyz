@@ -1,41 +1,49 @@
 ---
 title: "Daily AI-Enhanced 311 Report for San Francisco’s Castro"
-date: 2025-07-29
+date: 2025-07-30
 description: "Automated daily summary of 311 service requests in the Castro neighborhood using Python, SQL, PostGIS and the smollm2:1.7b model via a local chat API."
 tags: ["castro", "311", "san francisco", "postgis", "sql", "jupyter", "ai", "smollm2", "chat-api"]
 draft: false
 ---
 
-# SF Castro 311 Dashboard Summary — 2025-07-27
+# SF Castro 311 Dashboard Summary — 2025-07-29
 
 ## Raw Metrics
 
-- **Total cases**: 82
-- **Open**:       54
-- **Closed**:     28
+- **Total cases**: 94
+- **Open**:       60
+- **Closed**:     34
 
 ### Request Type Breakdown
 
 | request_type                              |   cnt |
 |:------------------------------------------|------:|
 | Street and Sidewalk Cleaning              |    27 |
-| Graffiti Public                           |    22 |
-| Parking Enforcement                       |    10 |
-| Encampment                                |     8 |
-| Illegal Postings                          |     7 |
-| MTA Parking Traffic Signs Normal Priority |     3 |
-| Graffiti Private                          |     2 |
+| Parking Enforcement                       |    19 |
+| Graffiti Public                           |     9 |
+| Sewer                                     |     7 |
+| General Request                           |     6 |
+| Graffiti Private                          |     6 |
+| Tree Maintenance                          |     5 |
+| Noise                                     |     2 |
+| Encampment                                |     2 |
+| Litter Receptacle Maintenance             |     2 |
+| MTA Parking Traffic Signs Normal Priority |     2 |
+| Blocked Street and Sidewalk               |     2 |
+| RPD General                               |     2 |
 | Street Defect                             |     2 |
-| Sewer                                     |     1 |
+| Sidewalk and Curb                         |     1 |
 
-- **Average resolution time**: 1.0 hrs
-- **Open-case aging**:           0–1 d=43, 1–3 d=11, 3+ d=0
+- **Average resolution time**: 0.8 hrs
+- **Open-case aging**:           0–1 d=10, 1–3 d=50, 3+ d=0
 
 ## AI Report
 
-Summary:  
-There were 28 closed cases and 54 open cases.
-Top 3 Request Types:  
-Street and Sidewalk Cleaning, Graffiti Public, Encampment
-Closing:  
-Resolution speed is 1 hour (on average), and the open-case aging distribution is primarily < 1 day (43%), > 1–3 days (11%), and > 3+ days (0%).
+Summary:  60 open vs. 34 closed cases.
+
+Top 3 Request Types:
+1. Street and Sidewalk Cleaning
+2. Parking Enforcement
+3. Graffiti Private
+
+Closing:  0.8 hrs is the average resolution time, with an open-case aging distribution of 0–1 d=10, 1–3 d=50, 3+ d=0
