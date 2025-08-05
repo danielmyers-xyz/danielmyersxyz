@@ -42,11 +42,9 @@ draft: false
 
 Summary: 55 open vs. 22 closed cases.
 
-Top 3 Request Types:  
-| request_type                              |   cnt |
-|:------------------------------------------|------:|
-| Street and Sidewalk Cleaning              |    20 |
-| Parking Enforcement                       |    14 |
-| General Request                           |    13 |
+Top 3 Request Types:
+  - Street and Sidewalk Cleaning (20)
+  - Parking Enforcement (14)
+  - General Request (13)
 
-Closing: One sentence commenting on the resolution speed (1.5 hrs) and the open-case aging distribution (0–1 d=4, 1–3 d=51, 3+ d=0).
+Closing: Resolution speed 1.5 hrs, open-case aging distribution 0–1 d=4, 1–3 d=51, 3+ d=0
