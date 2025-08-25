@@ -35,13 +35,14 @@ draft: false
 | Street Defect                |     1 |
 
 - **Average resolution time**: 1.5 hrs
-- **Open-case aging**:           0–1 d=6, 1–3 d=35, 3+ d=0
+- **Open-case aging**:           0–1 d=3, 1–3 d=38, 3+ d=0
 
 ## AI Report
 
-Summary: 41 open vs. 29 closed cases.
-
-Top 3 Request Types: 
-1. Street and Sidewalk Cleaning
-2. Graffiti Public
-3. Parking Enforcement
+**SF_OpenCloseReport: {date}**  
+- Summary: Open cases: 41 | Closed cases: 29  
+- Top Request Types:  
+  - Street and Sidewalk Cleaning (26)   
+  - Graffiti Public (11)    
+  - Parking Enforcement (8)   
+- The average resolution time stands at a swift 1.5 hrs, with most open cases resolved within the first day; however, longer durations are notably less common beyond three days ago and none past that mark remain unresolved today.
